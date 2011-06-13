@@ -25,6 +25,5 @@ Machine.add("launchpad/launchpadevent.ck");
 Machine.add("launchpad/launchpad.ck");
 Machine.add("launchpad/launchpadcolor.ck");
 Machine.add("launchpad/box.ck");
-
-Machine.add("echobox.ck");
-Machine.add("box_echo_run.ck");
+Machine.add("lib/echobox.ck");
+Machine.add("lib/box_echo.ck");

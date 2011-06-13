@@ -26,4 +26,4 @@ Machine.add("launchpad/launchpad.ck");
 Machine.add("launchpad/launchpadcolor.ck");
 Machine.add("launchpad/box.ck");
 
-Machine.add("box_print_run.ck");
+Machine.add("lib/box_print.ck");

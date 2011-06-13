@@ -39,9 +39,9 @@ SinOsc @ oscBank[8][8];
 // that's columns, rows, column step, row step, base frequency, and tones per
 // octave.  If you change the first two, shit will break.  The others you can
 // change freely.  I set it so that it moves chromatically along the horizontal
-// axis (3rd parameter is 1) and in tritones along the vertical axis (4th
-// parameter is 6).  Changing the last parameter is not for the faint of heart.
-ToneCalc.grid(8, 8, 1, 6, 55.0, 12.0) @=> float toneMap[][];
+// axis (3rd parameter is 1) and in fourths along the vertical axis (4th
+// parameter is 5).  Changing the last parameter is not for the faint of heart.
+ToneCalc.grid(8, 8, 1, 5, 55.0, 12.0) @=> float toneMap[][];
 
 for(0 => int i; i < 8; i++) {
     for(0 => int j; j < 8; j++) {

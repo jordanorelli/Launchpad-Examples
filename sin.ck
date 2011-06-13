@@ -25,7 +25,7 @@ Machine.add("utils/tonecalc.ck");
 Machine.add("launchpad/launchpadevent.ck");
 Machine.add("launchpad/launchpad.ck");
 if(me.args() > 0) {
-    Machine.add("sin_run:" + me.arg(0) + ".ck");
+    Machine.add("lib/sin.ck:" + me.arg(0) + ".ck");
 } else {
-    Machine.add("sin_run.ck");
+    Machine.add("lib/sin.ck");
 }

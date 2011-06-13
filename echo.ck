@@ -24,7 +24,7 @@ Machine.add("utils/test.ck");
 Machine.add("launchpad/launchpadevent.ck");
 Machine.add("launchpad/launchpad.ck");
 if(me.args() > 0) {
-    Machine.add("echo_run:" + me.arg(0) + ".ck");
+    Machine.add("lib/echo.ck:" + me.arg(0));
 } else {
-    Machine.add("echo_run.ck");
+    Machine.add("lib/echo.ck");
 }
