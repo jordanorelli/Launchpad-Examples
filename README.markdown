@@ -1,4 +1,4 @@
-Provides an interface for working with the Novation Launchpad in ChucK.  Some
+Provides an interface for working with the Novation Launchpad in [ChucK](http://chuck.cs.princeton.edu/).  Some
 sample uses have been given:
 
 * print.ck - prints messages received from the Launchpad to stdout, to
